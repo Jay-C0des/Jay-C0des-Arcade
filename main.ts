@@ -346,6 +346,6 @@ game.onUpdateInterval(1000, function () {
     statusbar2.setColor(5, 12, 11)
     statusbar2.attachToSprite(life)
     if (info.score() > 49) {
-        enemyspeed += -5
+        enemyspeed += -2
     }
 })
